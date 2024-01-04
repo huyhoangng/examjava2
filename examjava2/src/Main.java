@@ -10,7 +10,7 @@ public class Main {
             System.out.println("1. Thêm liên lạc mới");
             System.out.println("2. Tìm liên lạc theo tên");
             System.out.println("3. Hiển thị tất cả các liên lạc");
-            System.out.println("4. Thoát");
+            System.out.println("4. Exit");
 
             System.out.print("Nhập lựa chọn của bạn: ");
             int choice = scanner.nextInt();
@@ -33,7 +33,7 @@ public class Main {
                     addressBook.displayContacts();
                     break;
                 case 4:
-                    System.out.println("Đang thoát khỏi chương trình Sổ Địa Chỉ. Tạm biệt!");
+                    System.out.println("Đang thoát khỏi chương trình Sổ Địa Chỉ. GoodBye! See you next time");
                     System.exit(0);
                 default:
                     System.out.println("Lựa chọn không hợp lệ. Vui lòng nhập một số từ 1 đến 4.");
